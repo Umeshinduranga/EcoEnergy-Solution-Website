@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - provide your student name</title>
+
+    <link rel="stylesheet" href="/CSS/pageEditor_validator.css">
+    <link rel="stylesheet" href="/CSS/globle.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/Pages/home.html" class="active"> Home </a> </li>
+            <li> <a href="volunteer.html"> Volunteer </a> </li>
+            <li> <a href="/Pages/table.html"> Table </a> </li>
+            <li> <a href="profile.html"> User Profile </a> </li>
+            <li> <a href="feedback.html"> Feedback </a> </li>
+            <li> <a href="site.html"> Sitemap </a> </li>
+            <li> <a href="team.html"> Team </a> </li>
+        </ul>
+    </nav>
+    <section class="stud">
+        <h2>W.P.U.Induranga, student 2 </h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+            <section>
+                <h2 id="splash">Home Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>The homepage is structured using semantic HTML5 tags to ensure clarity and functionality. The <code>&lt;nav&gt;</code> tag creates a sticky navigation bar, enhancing user navigation by remaining fixed at the top during scrolling. The <code>&lt;main&gt;</code> tag encapsulates the primary content, providing a clear content hierarchy for both users and search engines. A <code>&lt;section&gt;</code> with a <code>.hero-content</code> class serves as the focal point, housing key text elements like <code>&lt;h2&gt;</code> and <code>&lt;p&gt;</code> to draw attention to the page’s purpose. The <code>&lt;img&gt;</code> tags within <code>.banner-image</code> and <code>.turbine-image</code> classes display a full-width banner and an overlapping turbine graphic, respectively, enhancing visual appeal.</p>
+        
+                    <h3>Accessibility</h3>
+                        <p>Accessibility is addressed through semantic HTML and CSS choices to support screen readers and keyboard navigation. The <code>&lt;nav&gt;</code> tag clearly defines the navigation area, aiding assistive technologies in identifying interactive elements. Descriptive text in <code>&lt;h2&gt;</code> and <code>&lt;p&gt;</code> within <code>.hero-content</code> ensures content is meaningful out of context. High-contrast colors—like white text (<code>color: white</code>) against a dark background (<code>background-color: rgba(14, 13, 13, 0.8)</code>)—improve readability for visually impaired users. The <code>font-size</code> properties (e.g., 300% for <code>h2</code>, 160% for <code>p</code>) ensure text is legible, while <code>line-height: 1.6</code> on the <code>body</code> enhances text spacing. Links and buttons use <code>:hover</code> and <code>:active</code> states with visible feedback (e.g., color shifts and transforms), aiding users with motor impairments. For images like the banner and turbine, alt text should be added to <code>&lt;img&gt;</code> tags (not shown in CSS but assumed in HTML) to describe their purpose, ensuring inclusivity.</p>
+            
+                    <h3>Link to the validation page</h3>
+                        <p><a href="/Pages/validation_ST2.html">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page containing a snapshot for the splash page.</p>
+            
+                    <h3>Link to the page</h3>
+                        <p><a href="/Pages/home.html">Include a link to the actual page you describe.</a></p>
+            </section>
+            
+            <section>
+                <h2 id="table">Table Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>The table page employs HTML5 tags like <code>&lt;nav&gt;</code> for consistent navigation and <code>&lt;section class="wrapper"&gt;</code> to encase a data table, built with <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, and <code>&lt;tbody&gt;</code> for structured data presentation. The <code>&lt;header&gt;</code> with <code>&lt;img&gt;</code> and <code>&lt;h1&gt;</code> adds a visual banner, enhanced by CSS <code>position: absolute</code> and <code>animation: popUp</code> for dynamic text entry. CSS styles the <code>.table-container</code> with <code>background-color: #1a1a1a</code>, <code>border-radius: 35px</code>, and <code>box-shadow</code> for a bold, modern look, while <code>thead th</code> uses <code>background-color: #4a2c6f</code> to distinguish headers. Features like <code>.tooltip</code> with <code>position: absolute</code> and <code>tbody tr:hover</code> with <code>transition</code> improve interactivity, justifying a design that balances data clarity with engaging visuals.</p>
+            
+                    <h3>Accessibility</h3>
+                        <p>Semantic <code>&lt;nav&gt;</code> and <code>&lt;table&gt;</code> with <code>aria-label</code> (e.g., "Table showing renewable energy production trends") aid screen readers in identifying navigation and data structure. High-contrast <code>color: #e0e0e0</code> text on <code>#2a2a2a</code> table background, paired with large <code>font-size: 20px</code> in <code>.table-container</code>, ensures readability. Tooltips in <code>.tooltip</code> use <code>cursor: help</code> for discoverability, and <code>&lt;img&gt;</code> tags include <code>alt</code> attributes (e.g., "Icon for 2015 data"). The <code>@media (max-width: 768px)</code> rule with <code>overflow-x: auto</code> makes the table scrollable on small screens, enhancing mobile accessibility.</p>
+            
+                    <h3>Link to the validation page</h3>
+                        <p><a href="/Pages/validation_ST2.html">Link to the validation page</a>, jumps to the table page snapshot section.</p>
+            
+                    <h3>Link to the page</h3>
+                        <p><a href="/Pages/table.html">Link to the described table page.</a></p>
+            </section>
+
+
+            <section>
+                <h2 id="content">Content Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>The content page uses semantic HTML5 tags like <code>&lt;nav&gt;</code> for a top navigation bar and <code>&lt;div class="container"&gt;</code> to centralize content, ensuring a logical structure for navigation and readability. A fixed <code>&lt;div class="sidebar"&gt;</code> with <code>&lt;a&gt;</code> links provides quick section access, while <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, and <code>&lt;p&gt;</code> tags organize text hierarchically. CSS applies a dark <code>background-color: #1a1a1a</code> on <code>body</code> and <code>#1b1818</code> on the container for a sleek look, with <code>position: fixed</code> and <code>padding: 20px 20px 20px 220px</code> accommodating the sidebar. The <code>.image-container</code> uses <code>text-align: center</code> and <code>box-shadow</code> to highlight images, while <code>color</code> properties (e.g., <code>#ffffff</code> for headings) ensure contrast. This design prioritizes accessibility and a modern aesthetic, with a sidebar enhancing navigation efficiency.</p>
+            
+                    <h3>Accessibility</h3>
+                        <p>Accessibility is enhanced with semantic <code>&lt;nav&gt;</code> and <code>&lt;div class="sidebar"&gt;</code> for clear navigation landmarks, aiding screen readers. The sidebar’s <code>a:focus</code> with <code>outline: 2px solid #cc99ff</code> ensures keyboard navigation support. Images in <code>.image-container</code> include <code>alt</code> attributes (e.g., "Wind Turbine Farm") for screen reader compatibility, while <code>line-height: 1.6</code> on <code>body</code> enhances text legibility, making the page inclusive.</p>
+            
+                    <h3>Link to the validation page</h3>
+                        <p><a href="/Pages/validation_ST2.html">Link to the validation page</a>, jumps to the content page snapshot section.</p>
+            
+                    <h3>Link to the page</h3>
+                        <p><a href="/Pages/content.html">Link to the described content page.</a></p>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                    <p>Challenge: Coordinating the black and purple theme across pages due to team scheduling conflicts. Resolved by sharing a global CSS file and holding weekly syncs. Lesson: Clear communication and version control are critical for consistency.</p>
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2>
+                    <p>The pages comply with JISC regulations by using valid HTML (checked via Nu HTML Checker), accessible design (WCAG 2.1), and proper file naming (e.g., `content_ST2.html`). Royalty-free images from iStockPhoto were used with attribution.</p>    
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                <p>Provide links to resources you used following a consistent format (e.g., APA, MLA, or a simplified style). For example:<br><br>
+                    <ul class="ref">
+                        <li>W3Schools (2025) <i>HTML Tables Tutorial</i>. Available at: <a href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a> (Last accessed: 09 Mar 2025).</li>
+                        <li>SuperSimpleDev (2025) <i>HTML & CSS Tutorial - Full Course for Beginners</i>. Available at: <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=3262s">https://www.youtube.com/watch?v=G3e-cpL7ofc&t=3262s</a> (Last accessed: 09 Mar 2025).</li>
+                        <li>GeeksforGeeks (2025) <i>Top 10 HTML Animations</i>. Available at: <a href="https://www.geeksforgeeks.org/top-10-html-animations/">https://www.geeksforgeeks.org/top-10-html-animations/</a> (Last accessed: 09 Mar 2025).</li>
+                        <li>Bro Code (2025) <i>CSS Tutorial for Beginners</i>. Available at: <a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">https://www.youtube.com/watch?v=qz0aGYrrlhU</a> (Last accessed: 09 Mar 2025).</li>
+                    </ul>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+
+            <ul class="top-level-ul">
+                <!--  side bar -->
+                <li>Student 1</li>
+                    <ul> 
+                        <li><a href="#splash">Splash page</a></li>
+                        <li><a href="#volunteer">Volunteer page</a></li>
+                        <li><a href="#content">Content page</a></li>
+                    </ul>
+                <li>Student 2</li>
+                    <ul>
+                        <li><a href="#">Home page </a></li>
+                        <li><a href="#">Table page</a></li>
+                        <li><a href="#">Content page</a></li>
+                    </ul>
+                <li>Student 3</li>
+                    <ul>
+                        <li><a href="#">Feedback page</a> </li>
+                        <li><a href="#">Team page</a></li>
+                        <li><a href="#">Content page</a></li>
+                    </ul>
+                <li>Student 4</li>
+                    <ul>
+                        <li><a href="#">Profile page </a></li>
+                        <li><a href="#">Sitemap page</a></li>
+                        <li><a href="#">Content page</a></li>
+                    </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer-style-3">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <div class="footer-links">
+                    <a href="/Pages/home.html">Home</a>
+                    <a href="volunteer.html">Volunteer </a>
+                    <a href="/Pages/table.html">Table </a>
+                    <a href="profile.html">User Profile </a>
+                    <a href="feedback.html">Feedback </a>
+                    <a href="sitemap.html">Sitemap </a>
+                    <a href="team.html">Team </a>
+                    <a href="/Pages/pageEditor_ST2.html">Page Editor </a>
+                    <a href="/Pages/validation_ST2.html">Validation Page </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>EcoEnergy</h4>
+                <p>Driving the future with sustainable, renewable energy solutions. Join us in powering a greener tomorrow!</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><a href="mailto:info@ecoenergy.com">info@ecoenergy.com</a></p>
+                <p>+94 71 3303 985</p>
+                <p>Baseline Roda Colombo - 6</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© Group 03 | <a href="/Pages/pageEditor_ST2.html">Student 2</a></p>
+        </div>
+    </footer>
+</body>
+</html>

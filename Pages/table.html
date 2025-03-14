@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table page</title>
+    <!-- Link to the Global CSS file -->
+    <link rel="stylesheet" href="/CSS/globle.css">
+    <!-- Additional CSS for the Table page -->
+    <link rel="stylesheet" href="/CSS/tablestyles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- Header with Navigation Bar (from template) -->
+
+<nav>
+    <ul>
+        <li><a href="/Pages/home.html">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="/Pages/table.html" class="active">Table</a></li>
+        <li><a href="profile.html">User Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="team.html">Team</a></li>
+    </ul>
+</nav>
+
+
+<header>
+    <div class="header-image">
+        <img src="/images/image5.jpg" alt="image1">
+    </div>
+    <div class="header-text">
+        <h1>Renewable energy production trends and predictions for various countries</h1>
+    </div>
+</header>
+
+<!-- Main Content Area with Rounded Container -->
+<section class="wrapper">
+    <div class="table-container">
+        <h2>Renewable Energy Production Trends and Predictions</h2>
+        <table aria-label="Table showing renewable energy production trends and predictions for various countries">
+            <!-- Header Row with Thumbnails and Tooltips -->
+            <thead>
+            <tr>
+                <th scope="col">
+                            <span class="tooltip">Country/Region
+                                <span class="tooltip-text">Country or region name</span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                    <img src="/icons/2015-icon.png" alt="Icon for 2015 data" class="thumbnail">
+                    <span class="tooltip">2015 (TWh)
+                                <span class="tooltip-text">Renewable energy production in 2015</span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                    <img src="/icons/2015-icon.png" alt="Icon for 2020 data" class="thumbnail">
+                    <span class="tooltip">2020 (TWh)
+                                <span class="tooltip-text">Renewable energy production in 2020 </span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                    <img src="/icons/2015-icon.png" alt="Icon for 2025 prediction" class="thumbnail">
+                    <span class="tooltip">2025 (Predicted, TWh)
+                                <span class="tooltip-text">Predicted renewable energy production in 2025</span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                    <img src="/icons/2015-icon.png" alt="Icon for 2030 prediction" class="thumbnail">
+                    <span class="tooltip">2030 (Predicted, TWh)
+                                <span class="tooltip-text">Predicted renewable energy production in 2030 </span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                            <span class="tooltip">Notable Projects
+                                <span class="tooltip-text">Key renewable energy projects in the country</span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                            <span class="tooltip">Impact/Goal Alignment
+                                <span class="tooltip-text">Alignment with sustainability goals</span>
+                            </span>
+                </th>
+
+                <th scope="col">
+                            <span class="tooltip">Achieved Target?
+                                <span class="tooltip-text">Has the country achieved its renewable energy target?</span>
+                            </span>
+                </th>
+            </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody>
+            <!-- Row 1: Germany -->
+            <tr>
+                <td>Germany</td>
+                <td>120</td>
+                <td>150</td>
+                <td>190</td>
+                <td>240</td>
+                <td><a href="content_ST2.html#offshore-wind">Offshore wind farms</a></td>
+                <td>80% renewable by 2030</td>
+                <td><span class="icon">✓</span></td>
+            </tr>
+            <!-- Row 2: China -->
+            <tr>
+                <td>China</td>
+                <td>500</td>
+                <td>700</td>
+                <td>950</td>
+                <td>1250</td>
+                <td><a href="content_ST2.html#solar-mega">Solar mega-plants</a></td>
+                <td>Carbon neutral by 2060</td>
+                <td><span class="icon">✗</span></td>
+            </tr>
+            <!-- Row 3: United States -->
+            <tr>
+                <td>United States</td>
+                <td>300</td>
+                <td>400</td>
+                <td>520</td>
+                <td>670</td>
+                <td><a href="content_ST2.html#wind-subsidies">Wind energy subsidies</a></td>
+                <td>Paris Agreement</td>
+                <td><span class="icon">✓</span></td>
+            </tr>
+            <!-- Row 4: India -->
+            <tr>
+                <td>India</td>
+                <td>80</td>
+                <td>120</td>
+                <td>170</td>
+                <td>230</td>
+                <td><a href="content_ST2.html#solar-expansion">Solar power expansion</a></td>
+                <td>175 GW by 2022</td>
+                <td><span class="icon">✗</span></td>
+            </tr>
+            <!-- Row 5: Brazil -->
+            <tr>
+                <td>Brazil</td>
+                <td>150</td>
+                <td>180</td>
+                <td>220</td>
+                <td>270</td>
+                <td><a href="content_ST2.html#hydropower">Hydropower projects</a></td>
+                <td>Reduce emissions</td>
+                <td><span class="icon">✓</span></td>
+            </tr>
+            <!-- Row 6: Australia -->
+            <tr>
+                <td>Australia</td>
+                <td>40</td>
+                <td>60</td>
+                <td>85</td>
+                <td>115</td>
+                <td><a href="content_ST2.html#solar-farms">Solar farms</a></td>
+                <td>50% renewable by 2030</td>
+                <td><span class="icon">✗</span></td>
+            </tr>
+            <!-- Row 7: Japan -->
+            <tr>
+                <td>Japan</td>
+                <td>70</td>
+                <td>90</td>
+                <td>120</td>
+                <td>160</td>
+                <td><a href="content_ST2.html#geothermal">Geothermal projects</a></td>
+                <td>Net-zero by 2050</td>
+                <td><span class="icon">✗</span></td>
+            </tr>
+            <!-- Row 8: South Africa (with merged cells) -->
+            <tr>
+                <td>South Africa</td>
+                <td>20</td>
+                <td>30</td>
+                <td>45</td>
+                <td>65</td>
+                <td rowspan="2"><a href="content_ST2.html#wind-adoption">Wind energy adoption</a></td>
+                <td>Increase renewables</td>
+                <td><span class="icon">✓</span></td>
+            </tr>
+            <!-- Row 9: Summary Row (with merged cells) -->
+            <tr class="summary">
+                <td colspan="4">Total Production (TWh)</td>
+                <td>1280</td>
+                <td>1660</td>
+                <td>Focus on expanding wind and solar energy</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Footer (from template) -->
+<footer class="footer-style-3">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+                <a href="/Pages/home.html">Home</a>
+                <a href="volunteer.html">Volunteer </a>
+                <a href="/Pages/table.html">Table </a>
+                <a href="profile.html">User Profile </a>
+                <a href="feedback.html">Feedback </a>
+                <a href="sitemap.html">Sitemap </a>
+                <a href="team.html">Team </a>
+                <a href="/Pages/pageEditor_ST2.html">Page Editor </a>
+                <a href="/Pages/validation_ST2.html">Validation Page </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>EcoEnergy</h4>
+            <p>Driving the future with sustainable, renewable energy solutions. Join us in powering a greener tomorrow!</p>
+            <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p><a href="mailto:info@ecoenergy.com">info@ecoenergy.com</a></p>
+            <p>+94 71 3303 985</p>
+            <p>Baseline Roda Colombo - 6</p>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© Group 03 | <a href="/Pages/pageEditor_ST2.html">Student 2</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
