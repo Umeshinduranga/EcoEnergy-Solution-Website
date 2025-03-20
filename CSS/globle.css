@@ -1,0 +1,250 @@
+/* Global Reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: radial-gradient(circle at center, #191416, #0b0808);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* remove link line*/
+a{
+    text-decoration: none;
+}
+
+
+
+.logo {
+    position: absolute;
+    color: #ffffff;
+    z-index: 100; /* Ensure it's above the banner */
+}
+
+
+/*------------------------------------------------- Navigation Bar -----------------------------------------*/
+nav {
+    background-color: rgb(17, 17, 17);
+    padding: 22px 0;
+    width: 75%;
+    height: 65px; /* navuigation hight*/
+    top: 0;
+    justify-content: center;
+    transform: translateY(-3%);
+    position: sticky;
+    border-radius: 0px 0px  50px 50px ;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    left: 13%;
+    margin-top: -1%;
+    animation: dropDown 1.8s ease-out forwards;
+    animation-delay: 0.1s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -6px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Animation for the navigation */
+@keyframes dropDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-3%);
+    }
+}
+
+/* Main Content */
+main {
+    max-width: 100%;
+    background-color: #111111;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ----------------------------------------footer style--------------------------------------*/
+.footer-style-3 {
+    background-color: #111111; /* Dark background */
+    padding: 30px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-style-3 .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-style-3 .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-style-3 h4 {
+    color: #ffffff; /* White headings */
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-style-3 .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    width : 20%;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.footer-style-3 .footer-links a {
+    color: #b0b0c5;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-style-3 .footer-links a:hover {
+    color: #9b59b6; /* Purple glow on hover */
+    text-shadow: 0 0 5px rgba(155, 89, 182, 0.7);
+}
+
+.footer-style-3 .footer-section p {
+    color: #b0b0c5;
+    width: 50%;
+    margin-left: 135px;
+
+}
+
+.footer-style-3 .footer-section p a {
+    color: #b0b0c5;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-style-3 .footer-section p a:hover {
+    color: #9b59b6;
+    text-shadow: 0 0 5px rgba(155, 89, 182, 0.7);
+}
+
+.footer-style-3 .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-style-3 .footer-social a {
+    color: #b0b0c5;
+    font-size: 18px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-style-3 .footer-social a:hover {
+    color: #9b59b6;
+    text-shadow: 0 0 5px rgba(155, 89, 182, 0.7);
+}
+
+.footer-style-3 .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-style-3 .footer-copyright p {
+    font-size: 15px;
+    color: #b0b0c5;
+
+}
+
+.footer-style-3 .footer-copyright a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+.footer-style-3 .footer-copyright a:hover {
+    color: #8e44ad;
+}
+
+@media (max-width: 768px) {
+    .footer-style-3 .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-style-3 .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+/* -------------------------------------defult Buttons------------------------------------------------- */
+button {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+/* Active/Click Effect */
+button:active {
+    transform: translateY(1px);
+    /* Reduce glow when clicked */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
