@@ -91,8 +91,4 @@ git clone https://github.com/Umeshinduranga/ecoenergy-website.git
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contact
-For inquiries, contact:
-- Email: ecoenergy@example.com
-- Phone: +94 71 3303 985
-- Address: Baseline Roda, Colombo - 6
+
