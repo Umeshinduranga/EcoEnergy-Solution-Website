@@ -67,7 +67,7 @@ git clone https://github.com/Umeshinduranga/ecoenergy-website.git
 - Check pageEditor_ST2.html for technical details and validation_ST2.html for validation reports.
 
 ## Challenges and Lessons Learned
-- **Challenge**: Maintaining a consistent black and purple theme across pages due to team coordination issues.
+- **Challenge**: Maintaining a consistent black and purple colour theme across pages due to team coordination issues.
 - **Solution**: Implemented a shared globle.css file and held weekly syncs for alignment.
 - **Lesson**: Effective communication and version control are essential for collaborative projects.
 
@@ -88,7 +88,5 @@ git clone https://github.com/Umeshinduranga/ecoenergy-website.git
 - W.P.U. Induranga (Student 2): Developed home, table, and content pages, along with page editor and validation reports.
 - Other team members contributed to additional pages (e.g., volunteer, profile, feedback).
 
-## License
-This project is licensed under the MIT License.See the LICENSE file for details.
 
 
