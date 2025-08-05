@@ -89,6 +89,6 @@ git clone https://github.com/Umeshinduranga/ecoenergy-website.git
 - Other team members contributed to additional pages (e.g., volunteer, profile, feedback).
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.See the LICENSE file for details.
 
 
