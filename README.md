@@ -74,7 +74,7 @@ git clone https://github.com/Umeshinduranga/ecoenergy-website.git
 ## Compliance
 - **Standards**: Pages adhere to JISC regulations and WCAG 2.1 accessibility guidelines.
 - **Validation**: Validated using the Nu HTML Checker.
-- **Assets**: Royalty-free images sourced from iStockPhoto with proper attribution.
+- **Assets**:Royalty-free images sourced from iStockPhoto with proper attribution.
 
 ## References
 - W3Schools. (2025). HTML Tables Tutorial. Available at: https://www.w3schools.com/html/html_tables.asp
